@@ -1,5 +1,4 @@
-import datetime 
-from datetime import date
+from datetime import datetime, date
 
 #Take user input in specified format
 date_of_birth = input("Enter your date of birth in '(MM/DD/YYYY)' format:")
