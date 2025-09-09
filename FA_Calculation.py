@@ -11,6 +11,6 @@ convert_date = datetime.strptime(date_of_birth, "%m/%d/%Y").date()
 today = date.today()
 
 
-calculate_days = today - convert_date
+calculate_days = (today - convert_date).days
 
-print(f"You are: {calculate_days} days old!")
+print(f"You are {calculate_days} days old!")
