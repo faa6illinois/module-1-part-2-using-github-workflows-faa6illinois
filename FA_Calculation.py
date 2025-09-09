@@ -13,4 +13,5 @@ today = date.today()
 
 calculate_days = (today - convert_date).days
 
-print(f"You are {calculate_days} days old!")
+#Print both input and output
+print(f"Your birthday is on {date_of_birth} and you are {calculate_days} days old!")
